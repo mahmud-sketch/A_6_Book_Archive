@@ -13,20 +13,22 @@
     <title>Book Archive</title>
 </head>
 
-<body>
+<body style="background-color: #deecdf;">
+
+    <!-- input area-->
     <div class="input-group my-5 container text-center w-25">
         <input id="book_name" type="text" class="form-control" placeholder="Search a book you need"
             aria-label="username" aria-describedby="button-addon2">
         <button id="search_book" class="btn btn-outline-secondary" type="button" id="button-addon2">Search book</button>
     </div>
 
-
-
-
-    <div id="display_book" class="row row-cols-1 row-cols-md-3 g-4 mx-5">
-
+    <!-- shows how many books found -->
+    <div id='number_of_books_found' class="text-center mb-3">
     </div>
 
+    <!-- shows the books in card form -->
+    <div id="display_book" class="row row-cols-1 row-cols-md-3 g-4 mx-5">
+    </div>
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
